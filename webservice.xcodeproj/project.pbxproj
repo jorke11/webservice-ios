@@ -14,6 +14,7 @@
 		5B21DF372144B202001B725C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B21DF352144B202001B725C /* LaunchScreen.storyboard */; };
 		5B21DF422144B202001B725C /* webserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21DF412144B202001B725C /* webserviceTests.swift */; };
 		5B21DF4D2144B203001B725C /* webserviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21DF4C2144B203001B725C /* webserviceUITests.swift */; };
+		5B21DF5C2144BF5C001B725C /* JsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21DF5B2144BF5C001B725C /* JsonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B21DF482144B202001B725C /* webserviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webserviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B21DF4C2144B203001B725C /* webserviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webserviceUITests.swift; sourceTree = "<group>"; };
 		5B21DF4E2144B203001B725C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B21DF5B2144BF5C001B725C /* JsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5B21DF332144B202001B725C /* Assets.xcassets */,
 				5B21DF352144B202001B725C /* LaunchScreen.storyboard */,
 				5B21DF382144B202001B725C /* Info.plist */,
+				5B21DF5B2144BF5C001B725C /* JsonClass.swift */,
 			);
 			path = webservice;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B21DF2F2144B1FE001B725C /* ViewController.swift in Sources */,
+				5B21DF5C2144BF5C001B725C /* JsonClass.swift in Sources */,
 				5B21DF2D2144B1FE001B725C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T88SD6R42T;
+				DEVELOPMENT_TEAM = BDRNLZRR8P;
 				INFOPLIST_FILE = webservice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T88SD6R42T;
+				DEVELOPMENT_TEAM = BDRNLZRR8P;
 				INFOPLIST_FILE = webservice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
